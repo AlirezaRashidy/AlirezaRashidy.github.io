@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Complete Bootstrap 4 Website Layout</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md  bg-light navbar-light sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav justify-content-center menu-nav">
+                <li class="nav-item active mx-lg-1"><a href="#" class="nav-link">خانه</a></li>
+                <li class="nav-item mx-lg-4 mx-md-1"><a href="#" class="nav-link">درباره ی ما</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        خدمات ما
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item text-right" href="#">خدمات رایگان</a>
+                        <a class="dropdown-item text-right" href="#">خدمات اشتراکی</a>
+                    </div>
+                <li class="nav-item mx-lg-4 mx-md-1"><a href="#" class="nav-link">تیم</a></li>
+                <li class="nav-item mx-lg-4 mx-md-1"><a href="#" class="nav-link">تماس با ما</a></li>
+            </ul>
+
+            <ul class="justify-content-end">
+                <li class="nav-item"><a href="login.html" class="btn btn-primary btn-login justify-content-end">ورود یا ثبت نام</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/background.png" alt="image slide 1">
+            <div class="carousel-caption">
+                <h1 class="display-4">W3Builder</h1>
+                <h3>طراحی وبسایتت رو با یک سایت ساز حرفه ای شروع کن</h3>
+                <button type="button" class="btn btn-outline-light btn-lg">مشاهده دمو</button>
+                <button type="button" class="btn btn-primary btn-lg">شروع کنید</button>
+            </div>
+        </div>
+        <div class="carousel-item"><img src="img/background2.png" alt="image slide 1"></div>
+        <div class="carousel-item"><img src="img/background3.png" alt="image slide 1"></div>
+    </div>
+</div>
+
+<!--- Jumbotron -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-9  col-lg-9 col-xl-10">
+                <p class="lead">
+                    میزبانی وب به افراد و سازمان ها امکان می دهد وب سایت خود را از طریق شبکه جهانی وب در دسترس قرار دهند
+                </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#">
+                    <button class="btn btn-outline-secondary btn-lg">میزبانی وب</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--- Welcome Section -->
+    <div class="container padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">با سادگی بساز</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead">
+                به راحتی هر وبسایتی یا وبلاگی که دوست داری رو با w3builder بساز و هر چی بخوای فقط کافیه به ما بگی
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container padding">
+    <div class="row text-center padding">
+        <div class="col-12 col-sm-6 col-md-4">
+            <i class="fas fa-code"></i>
+            <h3>Html5</h3>
+            <p>با آخرین ورژن html و html5 ساخته شده است</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <i class="fas fa-bold"></i>
+            <h3>Bootstrap</h3>
+            <p>با آخرین ورژن Bootstrap و Bootstrap4 ساخته شده است</p>
+        </div>
+        <div class="col-12 col-md-4">
+            <i class="fab fa-css3"></i>
+            <h3>Css</h3>
+            <p>با آخرین ورژن Css و Css3 ساخته شده است</p>
+        </div>
+    </div>
+    <hr class="my-4">
+</div>
+
+<!--- Two Column Section -->
+<div class="container padding">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>اگر اون رو بسازی...</h2>
+            <p>ستونها با عرض کمتر از 576 پیکسل به طور خودکار روی هم قرار می گیرند</p>
+            <p>اندازه پنجره مرورگر را تغییر دهید تا اثر را ببینید. طراحی وب پاسخگو از اهمیت بیشتری برخوردار شده است زیرا
+                اکنون میزان ترافیک تلفن همراه بیش از نیمی از کل ترافیک اینترنت را تشکیل می دهد</p>
+            <p>همچنین می تواند بسته به اندازه صفحه یا دستگاه مشاهده ، صفحه وب را متفاوت نشان دهد.</p>
+            <br>
+            <a href="#" class="btn btn-primary">بیشتر بدانید</a>
+        </div>
+        <div class="col-lg-6">
+            <img src="img/desk.png" alt="desk" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<hr class="my-4">
+<!--- Fixed background -->
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed"></div>
+    </div>
+</figure>
+
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">برای تفریح کلیک کن</button>
+<div id="emoji" class="collapse">
+    <div class="container padding">
+        <div class="row text-center">
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="img/gif/panda.gif" alt="gif">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="img/gif/poo.gif" alt="gif">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="img/gif/unicorn.gif" alt="gif">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="img/gif/chicken.gif" alt="gif">
+            </div>
+        </div>
+    </div>
+</div>
+<!--- Meet the team -->
+<div class="container padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">تیم ما را ببینید</h1>
+        </div>
+        <hr>
+    </div>
+</div>
+
+<!--- Cards -->
+<div class="container padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team1.png" alt="team image">
+                <div class="card-body">
+                    <h4 class="card-title">محمد محمدی</h4>
+                    <p class="card-text">محمد یک کارآفرین اینترنتی با تقریباً 20 سال تجربه است</p>
+                    <a href="#" class="btn btn-outline-secondary">مشاهده پروفایل</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team2.png" alt="team image">
+                <div class="card-body">
+                    <h4 class="card-title">زهرا اصغری</h4>
+                    <p class="card-text">زهرا یک طراح با تقریباً 10 سال تجربه از طراحی اینترنتی است</p>
+                    <a href="#" class="btn btn-outline-secondary">مشاهده پروفایل</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team3.png" alt="team image">
+                <div class="card-body">
+                    <h4 class="card-title">مهدی رضایی</h4>
+                    <p class="card-text">مهدی یک توسعه دهنده با کم تر از 5 سال تجربه از توسعه وب است</p>
+                    <a href="#" class="btn btn-outline-secondary">مشاهده پروفایل</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container padding">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>فلسفه ی ما</h2>
+            <p>ما می دانیم که عظمت در دوران آشفته نیاز به جاه طلبی جسورانه ، استعداد کنجکاو و فرهنگی دارد که معتقد است
+                ما باهوش تر هستیم.</p>
+            <p>ما با بهترین مهارت در کلاس در زمینه داده ها ، خلاقیت ، رسانه ها ، فناوری ، جستجو ، اجتماعی و موارد دیگر ،
+                به طور جامع به هر چالشی می پردازیم. ما به این کیمیا می گوییم. این قدرت را دارد که مارک های مشتریان ما را
+                بسازد و تجارت آنها را متحول کند. و گرچه ممکن است جادویی به نظر برسد ، اما ما به علم رسیده ایم</p>
+            <br>
+        </div>
+        <div class="col-lg-6">
+            <img src="img/bootstrap2.png" alt="bootstrap2" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<!--- Connect -->
+<div class="container padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2 class="font-weight-bold">تماس با ما</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+
+<!--- Footer -->
+<footer>
+    <div class="container padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="img/w3newbie.png" alt="logo">
+                <hr class="light">
+                <p>555-555-555</p>
+                <p>email@myemail.com</p>
+                <p>100 street Name</p>
+                <p>City, State, 0000000</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>ساعتهای ما</h5>
+                <hr class="light">
+                <p>دوشنبه : 9 صفح تا 5 بعد از ظهر</p>
+                <p>شنبه : 10 صفحه تا 4 بعد از ظهر</p>
+                <p>جمعه : تعطیل</p>
+            </div>
+
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>خدمات ما</h5>
+                <hr class="light">
+                <p>City, State, 0000000</p>
+                <p>City, State, 0000000</p>
+                <p>City, State, 0000000</p>
+                <p>City, State, 0000000</p>
+            </div>
+
+            <div class="col-12">
+                <hr class="light-100">
+                <h5>&copy; W3Builder.com</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
