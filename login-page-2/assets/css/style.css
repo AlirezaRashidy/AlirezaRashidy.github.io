@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'yekanbakh';
+    src: url('../fonts/yekanbakh.eot') format("eot");
+    src: url('../fonts/yekanbakh.ttf') format("truetype"),
+    url('../fonts/yekanbakh.woff') format("woff"),
+    url('../fonts/yekanbakh.woff2') format("woff2");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    font-family: "Yekan Bakh";
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.login-box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.login-box h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.login-box hr {
+    background: #00C853;
+    padding: 3px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    float: right;
+    width: 60%;
+    margin-top: 4px;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    border-bottom: 1px solid #00C853;
+    display: flex;
+    align-items: center;
+}
+
+.textbox svg {
+    font-size: 20px;
+    float: right;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 12px;
+}
+
+.login-box input[type="submit"] {
+    width: 100%;
+    background: transparent;
+    border: 2px solid #00C853;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 12px;
+    transition: ease-in-out .3s;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #00C853;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
